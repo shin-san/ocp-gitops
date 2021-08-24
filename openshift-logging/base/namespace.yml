@@ -3,4 +3,6 @@ kind: Namespace
 metadata:
   labels:
     app: openshift-logging
+    app.kubernetes.io/instance: openshift-logging
   name: openshift-logging
+  namespace: openshift-logging
