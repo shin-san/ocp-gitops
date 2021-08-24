@@ -1,0 +1,6 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Namespace
+metadata:
+  labels:
+    app: openshift-logging
+  name: openshift-logging
