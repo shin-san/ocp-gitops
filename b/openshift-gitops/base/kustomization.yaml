@@ -7,4 +7,5 @@ bases:
 - instance/250-crd.yaml
 - instance/300-application-project.yaml
 - instance/400-application-set.yaml
+- instance/401-application-set-b.yaml
 - operator/600-openshift-gitops-operator-subscription.yaml

@@ -17,4 +17,4 @@ spec:
     - group: '*'
       kind: '*'
   sourceRepos:
-    - 'https://github.com/mnlawler/gitops.git'
+    - 'https://github.com/shin-san/ocp-gitops.git'
