@@ -4,5 +4,5 @@ metadata:
   labels:
     app: openshift-logging
     app.kubernetes.io/instance: openshift-logging
-  name: openshift-logging
-  namespace: openshift-logging
+  name: openshift-gitops
+  namespace: openshift-gitops
