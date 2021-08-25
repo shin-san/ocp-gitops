@@ -6,7 +6,7 @@ metadata:
     app: cluster-logging
   name: cluster-logging
 spec:
-  channel: stable-5.1
+  channel: stable
   installPlanApproval: Automatic
   name: cluster-logging
   source: redhat-operators
