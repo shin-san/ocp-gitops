@@ -1,6 +1,6 @@
 - op: add
   path: /spec/template/spec/source/path
-  value: '{{path}}/overlay/dev'
+  value: '{{path}}/overlay/test'
 
 - op: replace
   path: /spec/template/spec/source/repoURL
