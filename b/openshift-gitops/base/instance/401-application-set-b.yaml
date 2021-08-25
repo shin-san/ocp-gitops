@@ -11,14 +11,12 @@ spec:
       repoURL: https://github.com/shin-san/ocp-gitops.git
       revision: HEAD
       directories:
-      - path: b/*
+      - path: 'b/*'
   template:
     metadata:
       name: '{{path.basename}}'
     spec:
       project: cluster-base
-      syncPolicy:
-        automated: {}
       source:
         repoURL: replace-url-here
         targetRevision: HEAD
