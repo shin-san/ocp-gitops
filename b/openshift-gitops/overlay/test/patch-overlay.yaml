@@ -3,9 +3,5 @@
   value: '{{path}}/overlay/test'
 
 - op: replace
-  path: /spec/generators/git/repoURL
-  value: 'https://github.com/shin-san/ocp-gitops.git'
-
-- op: replace
   path: /spec/template/spec/source/repoURL
   value: 'https://github.com/shin-san/ocp-gitops.git'
