@@ -16,9 +16,9 @@ spec:
     metadata:
       name: '{{path.basename}}'
     spec:
-      project: cluster-base
+      project: default
       source:
-        repoURL: replace-url-here
+        repoURL: https://github.com/shin-san/ocp-gitops.git
         targetRevision: HEAD
         path: '{{path}}'
       destination:
